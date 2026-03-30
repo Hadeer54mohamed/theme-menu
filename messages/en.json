@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "brand": "Emerald",
+    "switchLang": "العربية"
+  },
+  "menu": {
+    "subtitle": "✦ Full Selection",
+    "title": "The Menu",
+    "viewDetails": "View Details",
+    "backToMenu": "Back to Menu",
+    "keyIngredients": "Key Ingredients",
+    "allergens": "Allergens",
+    "dishes": "dishes",
+    "dish": "dish",
+    "in": "in"
+  },
+  "footer": {
+    "brand": "Emerald",
+    "address": "12 Garden Terrace, London W1K 2AE · +44 20 7123 4567",
+    "copyright": "© 2025 Emerald. All rights reserved."
+  }
+}
