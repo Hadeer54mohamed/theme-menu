@@ -13,7 +13,6 @@ export type Dish = {
   badge?: Bilingual;
   ingredients: BilingualArray;
   allergens: BilingualArray;
-  featured?: boolean;
 };
 
 export type Category = {
@@ -51,7 +50,6 @@ export const dishes: Dish[] = [
       en: ["Dairy", "Gluten"],
       ar: ["ألبان", "غلوتين"],
     },
-    featured: true,
   },
   {
     id: "d2",
@@ -111,7 +109,6 @@ export const dishes: Dish[] = [
       en: ["Dairy"],
       ar: ["ألبان"],
     },
-    featured: true,
   },
   {
     id: "d5",
@@ -171,7 +168,6 @@ export const dishes: Dish[] = [
       en: ["Fish", "Shellfish"],
       ar: ["أسماك", "محار"],
     },
-    featured: true,
   },
   {
     id: "d8",
@@ -231,7 +227,6 @@ export const dishes: Dish[] = [
       en: ["Dairy", "Tree nuts", "Eggs"],
       ar: ["ألبان", "مكسرات", "بيض"],
     },
-    featured: true,
   },
   {
     id: "d11",

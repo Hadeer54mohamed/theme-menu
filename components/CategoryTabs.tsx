@@ -1,6 +1,5 @@
 "use client";
 
-import { useRef } from "react";
 import { useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import type { Category, Locale } from "@/lib/menuData";
@@ -12,12 +11,10 @@ interface Props {
 }
 
 export default function CategoryTabs({ categories, active, onChange }: Props) {
-  const scrollRef = useRef<HTMLDivElement>(null);
   const locale = useLocale() as Locale;
 
   return (
     <div
-      ref={scrollRef}
       className="flex gap-3 overflow-x-auto no-scrollbar pb-1"
       role="tablist"
       aria-label="Menu categories"
